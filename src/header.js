@@ -1,9 +1,6 @@
 import React from "react";
 import "./header.css";
 const Header = (props) => {
-  document.querySelectorAll(".Fly>i").forEach((v, k) => {
-    v.style.animationDelay = k / 9 + "s";
-  });
   return (
     <header>
       <div class="Fly">
